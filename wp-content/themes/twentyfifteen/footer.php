@@ -14,6 +14,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
+			<div>
 			<?php
 				/**
 				 * Fires before the Twenty Fifteen footer text for footer customization.
@@ -23,7 +24,7 @@
 				do_action( 'twentyfifteen_credits' );
 			?>
 
-
+		
 		<?php if ( has_nav_menu( 'footer' ) ) : ?>
 			<nav id="site-navigation" class="footer-navigation">
 				<?php
@@ -35,7 +36,8 @@
 				?>
 			</nav><!-- .footer-navigation -->
 		<?php endif; ?>
-			<br><br><br><br>
+			</div >
+			<div>
 			<?php
 			if ( function_exists( 'the_privacy_policy_link' ) ) {
 				//the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
@@ -48,6 +50,7 @@
 			<!--
 			</a>
 			-->
+			</div>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 

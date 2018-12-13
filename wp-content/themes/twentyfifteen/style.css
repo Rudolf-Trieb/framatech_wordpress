@@ -662,26 +662,22 @@ a:focus {
  */
 
 .footer-navigation ul {
-	margin: 0;
+	margin: 0 auto;
 }
 
 .footer-navigation ul li {
 	list-style: none;
 	float: left;
-	margin: 10px;
+	margin: 7px;
 }
 
 .footer-navigation a {
 	display: block;
-	padding: 0.8em 1em;
+	padding: 0.4em 0.5em;
 	border: 1px solid #BBB;
 	position: relative;
 }
 
-.main-navigation {
-	background-color: #FFF;
-
-}
 
 .main-navigation a {
 	display: block;
@@ -2446,17 +2442,27 @@ a.post-thumbnail:focus {
  * 13.0 Footer
  */
 
+
+
 .site-info {
 	color: #707070;
+	background-image: url("../../uploads/2018/12/background.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	text-align: center;
 	color: rgba(51, 51, 51, 0.7);
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
 }
 
+.site-info div {
+	clear: both;
+}
+
 .site-info a {
 	border-bottom: 1px solid transparent;
-	color: red;
+	color: white;
 	
 }
 
@@ -2948,6 +2954,7 @@ p > video {
  */
 
 @media screen and (min-width: 46.25em) {
+
 	body,
 	button,
 	input,
@@ -6108,5 +6115,21 @@ p > video {
 	.widecolumn {
 		margin: 7.6923% 0 0;
 		padding: 0;
+	}
+}
+.secondary a {
+	color : white !important;
+}
+.secondary a:hover {
+	color : black !important;
+}
+.current-menu-item {
+	color: red;
+}
+
+@media screen and (max-width: 59.68em) {
+	.secondary a {
+		background-color: #AAA;
+		text-align: center;
 	}
 }
