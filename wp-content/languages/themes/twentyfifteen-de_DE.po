@@ -224,7 +224,7 @@ msgstr "Primäres Menü"
 
 #: footer.php:31
 msgid "Proudly powered by %s"
-msgstr "Stolz präsentiert von %s"
+msgstr "Erstellt von %s"
 
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
